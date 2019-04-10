@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="337.0" prefWidth="352.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TotalNumberWindowController">
+   <children>
+      <Label fx:id="lblTitle" prefHeight="87.0" prefWidth="363.0" text="Signal Flow Graph Application" />
+      <Label fx:id="lblNum" prefHeight="17.0" prefWidth="363.0" text="Enter total number of nodes" />
+      <TextField fx:id="txtNum" prefHeight="40.0" prefWidth="352.0" />
+      <Label fx:id="lblWarning" prefHeight="37.0" prefWidth="347.0" />
+      <Button fx:id="btnNum" mnemonicParsing="false" onAction="#btnNumClicked" text="Proceed" />
+   </children>
+</VBox>
